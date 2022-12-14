@@ -27,7 +27,7 @@ btnModo.addEventListener("click", () => {
       "background: url(../img/WhiteThemeOk.png) no-repeat center center var(--white_background);";
     degrade.style.cssText = `background: linear-gradient(
         90deg,
-        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 254, 1) 0%,
         rgba(230, 228, 255, 1) 31%,
         rgba(220, 244, 252, 1) 70%,
         rgba(150, 237, 255, 1) 100%,
