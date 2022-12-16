@@ -10,23 +10,26 @@
   </head>
   <body>
     <header class="container__header" id="container_header">
-      <div class="logo"><a class="texto padrao" href="#">teste</a></div>
+      <div class="logo padrao">ES</div>
       <nav class="menu">
         <ul class="container__menu">
           <li class="menu__item">
-            <a class="texto padrao" href="#first">Inicio</a>
+            <a class="texto padrao menuFirst active-day" href="#first"
+              >Inicio</a
+            >
           </li>
           <li class="menu__item">
-            <a class="texto padrao" href="#second">Dois</a>
+            <a class="texto padrao menuSecond" href="#second">Dois</a>
           </li>
           <li class="menu__item">
-            <a class="texto padrao" href="#third">Três</a>
+            <a class="texto padrao menuThird" href="#third">Três</a>
           </li>
+          <li class="menu__item_visible"></li>
         </ul>
       </nav>
       <div class="mode">
         <img
-          src="img/sun.png"
+          src="img/moon.png"
           alt="Botão alterador de modo de cor"
           class="mode-switch"
           id="mode-switch-btn"
@@ -35,7 +38,8 @@
     </header>
 
     <main>
-      <section class="first" id="first">
+      <section class="first" id="first"></section>
+      <section class="second" id="second">
         <div class="left__first">
           <h1 class="titulo__first texto padrao">teste</h1>
           <p class="paragraph__first texto padrao">
@@ -46,10 +50,9 @@
           </p>
         </div>
         <div class="right__first">
-          <img src="img/importa.gif" alt="" srcset="" class="gif" />
+          <img src="img/" alt="" srcset="" class="gif" />
         </div>
       </section>
-      <section class="second" id="second"></section>
       <section class="third" id="third"></section>
     </main>
 
