@@ -178,3 +178,4 @@ header.addEventListener("mouseleave", function () {
     btnModo.removeAttribute("alt");
   }
 });
+// SEPARAR POR FUNÇÕES AMANHÃ!
